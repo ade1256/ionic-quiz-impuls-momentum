@@ -1,0 +1,28 @@
+page-home {
+	.content-md{
+		background-color: #f2f2f2;
+	}
+	h1{
+		text-align: center;
+		font-size: 36px;
+		color: $birumuda;
+	}
+	.gambar-logo{
+		position: relative;
+		width: 130px;
+		margin: 0 auto;
+	}
+	.button-md{
+		background-color: $birumuda;
+		position: relative;
+		margin: 20px 0px;
+		padding: 20px 0px;
+		border-radius: 10px;
+	}
+	.button-md:hover{
+		background-color: $birumuda-hover;
+	}
+	.button-md:hover:not(.disable-hover){
+		background-color: $birumuda-hover;
+	}
+}
